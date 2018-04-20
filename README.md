@@ -7,11 +7,17 @@ This project provides an example of using ReactomeFIViz CyREST in a Python Jupyt
 
 ## Installation
 * Install the required packages in a Python environment, e.g. in the Anaconda virtual environment:
-    conda create -n cytoscape pandas scipy statsmodels
-    source activate cytoscape
-    Clone the example GitHub repository, e.g.:
+    - conda create -n cytoscape pandas scipy statsmodels
+    - source activate cytoscape
+    - Clone the example GitHub repository, e.g.:
 * mkdir ~/reactome-fi
 * cd ~/reactome-fi
 * git clone https://github.com/reactome-fi/workflows.git
 * cd workflows
 * In Cytoscape, select Help > Check for Updates to ensure that ReactomeFIViz is current.
+
+## Usage
+* Start Cytoscape.
+* In a console, start Jupyter on the notebook directory, e.g.:
+    - jupyter notebook --notebook-dir=~/reactome-fi/workflows
+* Run all notebook cells in the web browser Jupyter window.
