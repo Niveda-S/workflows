@@ -14,6 +14,7 @@ This project provides an example of using ReactomeFIViz CyREST in a Python Jupyt
     - cd ~/reactome-fi
     - git clone https://github.com/reactome-fi/workflows.git
     - cd workflows
+    - The two TCGA MAF files were downloaded from the Broad Institute firehose server (http://gdac.broadinstitute.org) in April, 2018.
 * In Cytoscape, select Help > Check for Updates to ensure that ReactomeFIViz is current.
 
 ## Usage
