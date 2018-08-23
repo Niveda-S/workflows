@@ -20,5 +20,7 @@ This project provides an example of using ReactomeFIViz CyREST in a Python Jupyt
 ## Usage
 * Start Cytoscape.
 * In a console, start Jupyter on the notebook directory, e.g.:
-    - jupyter notebook --notebook-dir=~/reactome-fi/workflows
+  
+      jupyter notebook --notebook-dir=~/reactome-fi/workflows
+
 * Run all notebook cells in the web browser Jupyter window.
